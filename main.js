@@ -23,7 +23,7 @@ var Colon = ['---','Portobelo','Cativa','Sabanitas','Cristoba','Santa Rita Arrib
 
 var Chiriqui = ['---','David','Boquete','Cerro Punta','Dolega','Gualaca','Tole','Bugaba','Divala','Puerto Armuelles'];
 
-var Darien = ['---','Pinogana','Garachine','Chiman','Rio Sabalo','Meteti'];
+var Darien = ['---','Pinogana','Garachine','Chiman','Meteti'];
 
 var Los_Santos = ['---','Las Tablas','Macaracas','Pocri','Guarare','La Espigadilla','Agua Buena'];
 
