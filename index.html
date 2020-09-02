@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Panama Weather</title>
+</head>
+<body>
+
+    <div class="main_container">
+
+
+        <div class=" header">
+            <h1 class="nombre">Seleccione una localidad</h1>
+            <p>Ahora mismo<span id="clima_actual"></span></p> 
+            <div class="rangos">
+                <p>Expected: <span id="top"></span></p>
+                <!-- <p>Mas baja<span id="low"></span></p> -->
+            </div>
+            
+        </div>
+
+        <div class="section left_block ">
+            <div class="info_container">
+                <select id="provincias">
+                    <!-- <option value="item1">item1</option>
+                    <option value="item2">item2</option>
+                    <option value="item3">item3</option> -->
+                </select>
+                
+                <select id="ciudades">
+                    <option value="">-- Select one -- </option>
+                </select>
+            </div>
+            
+            <img src="https://static.telemetro.com/clip/4243b494-8583-4b2b-b68c-bb74c6d76aa8_16-9-aspect-ratio_default_1000243.jpg" alt="Bandera de Panama">
+        </div>
+
+        <div class="section center_block">
+            <div class="mini_sections">
+                <p id="dia_0">Date</p>
+                <p id="hora_0">Hour</p>
+                <p id="clima_0">Temp</p>
+                <p id="hum_0">Hum</p>
+                <p id="min_0"></p>
+            </div>
+            
+            <div class="mini_sections">
+                <p id="dia_1"></p>
+                <p id="hora_1"></p>
+                <p id="clima_1"></p>
+                <p id="hum_1"></p>
+            </div>
+
+            <div class="mini_sections">
+                <p id="dia_2"></p>
+                <p id="hora_2"></p>
+                <p id="clima_2"></p>
+                <p id="hum_2"></p>
+            </div>
+
+            <div class="mini_sections">
+                <p id="dia_3"></p>
+                <p id="hora_3"></p>
+                <p id="clima_3"></p>
+                <p id="hum_3"></p>
+            </div>
+
+            <div class="mini_sections">
+                <p id="dia_4"></p>
+                <p id="hora_4"></p>
+                <p id="clima_4"></p>
+                <p id="hum_4"></p>
+            </div>
+
+            <div class="mini_sections">
+                <p id="dia_5"></p>
+                <p id="hora_5"></p>
+                <p id="clima_5"></p>
+                <p id="hum_5"></p>
+            </div>
+
+            <div class="mini_sections">
+                <p id="dia_6"></p>
+                <p id="hora_6"></p>
+                <p id="clima_6"></p>
+                <p id="hum_6"></p>
+            </div>
+
+            <div class="mini_sections">
+                <p id="dia_7"></p>
+                <p id="hora_7"></p>
+                <p id="clima_7"></p>
+                <p id="hum_7"></p>
+            </div>
+
+            <div class="mini_sections">
+                <p id="dia_8"></p>
+                <p id="hora_8"></p>
+                <p id="clima_8"></p>
+                <p id="hum_8"></p>
+            </div>
+
+            <div class="mini_sections">
+                <p id="dia_9"></p>
+                <p id="hora_9"></p>
+                <p id="clima_9"></p>
+                <p id="hum_9"></p>
+            </div>
+            <div class="mini_sections">
+                <p id="dia_10"></p>
+                <p id="hora_10"></p>
+                <p id="clima_10"></p>
+                <p id="hum_10"></p>
+            </div>
+            <div class="mini_sections">
+                <p id="dia_11"></p>
+                <p id="hora_11"></p>
+                <p id="clima_11"></p>
+                <p id="hum_11"></p>
+            </div>
+        
+        </div>
+
+        <div class="section right_block block">
+                        
+            <div class="mini_sections">
+                <p id="dia_12"></p>
+                <p id="hora_12"></p>
+                <p id="clima_12"></p>
+                <p id="hum_12"></p>
+            </div>
+
+            <div class="mini_sections">
+                <p id="dia_13"></p>
+                <p id="hora_13"></p>
+                <p id="clima_13"></p>
+                <p id="hum_13"></p>
+            </div>
+
+            <div class="mini_sections">
+                <p id="dia_14"></p>
+                <p id="hora_14"></p>
+                <p id="clima_14"></p>
+                <p id="hum_14"></p>
+            </div>
+
+            <div class="mini_sections">
+                <p id="dia_15"></p>
+                <p id="hora_15"></p>
+                <p id="clima_15"></p>
+                <p id="hum_15"></p>
+            </div>
+
+            <div class="mini_sections">
+                <p id="dia_16"></p>
+                <p id="hora_16"></p>
+                <p id="clima_16"></p>
+                <p id="hum_16"></p>
+            </div>
+
+            <div class="mini_sections">
+                <p id="dia_17"></p>
+                <p id="hora_17"></p>
+                <p id="clima_17"></p>
+                <p id="hum_17"></p>
+            </div>
+
+            <div class="mini_sections">
+                <p id="dia_18"></p>
+                <p id="hora_18"></p>
+                <p id="clima_18"></p>
+                <p id="hum_18"></p>
+            </div>
+
+            <div class="mini_sections">
+                <p id="dia_19"></p>
+                <p id="hora_19"></p>
+                <p id="clima_19"></p>
+                <p id="hum_19"></p>
+            </div>
+
+            <div class="mini_sections">
+                <p id="dia_20"></p>
+                <p id="hora_20"></p>
+                <p id="clima_20"></p>
+                <p id="hum_20"></p>
+            </div>
+
+            <div class="mini_sections">
+                <p id="dia_21"></p>
+                <p id="hora_21"></p>
+                <p id="clima_21"></p>
+                <p id="hum_21"></p>
+            </div>
+
+            <div class="mini_sections">
+                <p id="dia_22"></p>
+                <p id="hora_22"></p>
+                <p id="clima_22"></p>
+                <p id="hum_22"></p>
+            </div>
+
+            <div class="mini_sections">
+                <p id="dia_23"></p>
+                <p id="hora_23"></p>
+                <p id="clima_23"></p>
+                <p id="hum_23"></p>
+            </div>
+
+
+    
+        </div>
+
+        <div class="footer">
+           
+      
+        </div>
+
+    </div>
+
+   
+    <script src="main.js"></script>
+   
+    
+
+
+</body>
+</html>
